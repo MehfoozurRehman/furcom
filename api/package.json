@@ -2,8 +2,8 @@
   "name": "furcom",
   "type": "module",
   "scripts": {
-    "dev": "node init && tsx watch index.ts",
-    "start": "node init && tsx index.ts"
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.7",
